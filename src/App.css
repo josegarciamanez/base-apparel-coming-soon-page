@@ -6,3 +6,27 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+.grid-container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 58% 42%;
+    grid-template-areas: "left right";
+}
+.left-container {
+    grid-area: left;
+     background-position: center;
+     background-size: auto;
+    height: 100vh;
+    background-image: url('./images/bg-pattern-desktop.svg');
+}
+
+.right-container {
+    grid-area: right;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: auto;
+    height: 100vh;
+    background-image: url('./images/hero-desktop.jpg');
+}

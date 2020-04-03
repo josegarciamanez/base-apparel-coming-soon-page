@@ -4,20 +4,25 @@ import './App.css';
 function App() {
 
   return (
-    <div>
-      We're coming soon
-
-      Hello fellow shoppers! We're currently building our new fashion store. 
-      Add your email below to stay up-to-date with announcements and our launch deals.
-
-      Email Address
-      
-      <footer>
-        <p className="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Your Name Here</a>.
+    <div className="grid-container">
+      <div className="left-container">
+        <h2>We're coming soon</h2>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
-      </footer>
+        <form action="">
+          <input type="email" placeholder="Email Address" />
+          <input type="submit" />
+        </form>
+        <footer>
+          <p className="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>.
+          Coded by <a href="https://josegarciamanez.github.io" target="_blank" rel="noopener noreferrer">@josegarciamanez</a>.
+        </p>
+        </footer>
+      </div>
+      <div className="right-container"></div>
     </div>
   );
 }
