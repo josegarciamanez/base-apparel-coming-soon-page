@@ -12,7 +12,7 @@ class App extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log(this.state.email);
+    // console.log(this.state.email);
     if (this.state.email === '' || !this.state.regEx.test(this.state.email)) {
       this.setState({
         error: true,

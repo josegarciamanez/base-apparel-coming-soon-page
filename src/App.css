@@ -111,7 +111,7 @@ button:hover {
 }
 
 form {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 a {
@@ -126,7 +126,48 @@ a {
 img.iconerror {
   position: absolute;
   left: 540px;
-  bottom: 130px;
+  bottom: 132px;
   width: 36px;
   opacity: 0.5;
+}
+
+@media (max-width: 1160px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      'right'
+      'left';
+  }
+  .right-container {
+    grid-area: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    background-image: url('./images/hero-mobile.jpg');
+  }
+  .left-container {
+    grid-area: left;
+    background-position: contain;
+    background-size: auto;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    padding-left: 150px;
+  }
+  input {
+    width: 400px;
+  }
+
+  button {
+    left: 492px;
+  }
+  .logo {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  img.iconerror {
+    left: 440px;
+    top: 1002px;
+  }
 }
