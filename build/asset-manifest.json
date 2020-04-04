@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec26e9dc.chunk.css",
+    "main.js": "/static/js/main.fb916241.chunk.js",
+    "main.js.map": "/static/js/main.fb916241.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4e22f7a7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4e22f7a7.js.map",
+    "static/js/2.fbc54f02.chunk.js": "/static/js/2.fbc54f02.chunk.js",
+    "static/js/2.fbc54f02.chunk.js.map": "/static/js/2.fbc54f02.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c4ee542091ea216dd91d577154ea2697.js": "/precache-manifest.c4ee542091ea216dd91d577154ea2697.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ec26e9dc.chunk.css.map": "/static/css/main.ec26e9dc.chunk.css.map",
+    "static/js/2.fbc54f02.chunk.js.LICENSE.txt": "/static/js/2.fbc54f02.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/hero-mobile.1d55799a.jpg",
+    "static/media/icon-error.svg": "/static/media/icon-error.33780997.svg",
+    "static/media/logo.svg": "/static/media/logo.877543ce.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e22f7a7.js",
+    "static/js/2.fbc54f02.chunk.js",
+    "static/css/main.ec26e9dc.chunk.css",
+    "static/js/main.fb916241.chunk.js"
+  ]
+}
